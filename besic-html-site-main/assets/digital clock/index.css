@@ -1,0 +1,32 @@
+/*@import url('https://fonts.googleapi.com/css2?family=Roboto&display=swap')*/
+body{
+    background: gray;
+}
+.clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: black;
+    font-size: 40px;
+    letter-spacing: 7px;
+}
+
+
+.navbar{
+    background-color: #193498;
+    position: relative;
+}
+
+.nav-link{
+    color: #C0FFFB;
+}
+
+#navimg{
+  position: relative;
+  border-radius: 180%;
+}
+
+.navname{
+    margin-left: 10px;
+}

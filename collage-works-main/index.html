@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Js Calculator</title>
+</head>
+
+<body class="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600">
+    <div class="bg-gray-200 lg:w-1/4 md:w-1/2 grid place-items-center mx-auto mt-10 p-5 border-2 border-gray-800 rounded-3xl">
+        <div class="space-y-8 ">
+            
+            <div class="mx-auto border-2">
+                <input type="text" class="input px-8 py-3 rounded-2xl">
+            </div>
+            <div class="space-x-3">
+                <button class="button
+                 mx-auto bg-pink-400 text-white px-8 py-2 text-3xl rounded-lg" data-ac>AC</button>
+                
+                <button class="button 
+                 mx-auto bg-pink-400 text-white px-8  py-2 text-3xl rounded-lg
+                 "  data-del>DEl </button>
+                
+                
+            </div>
+            <div class="space-x-3">
+                <button class="button
+                 mx-auto bg-stone-800 text-white px-4 py-2 text-3xl rounded-lg" data-num>0</button>
+                <button class="button
+                 mx-auto bg-stone-800 text-white px-4 py-2 text-3xl rounded-lg" data-num>1</button>
+                <button class="button
+                 mx-auto bg-stone-800 text-white px-4 py-2 text-3xl rounded-lg" data-num>2</button>
+                <button class="button
+                 mx-auto bg-orange-600 text-white px-4 py-2 text-3xl rounded-lg " data-op>+</button>
+            </div>
+            <div class="space-x-3">
+                <button class="button
+                 mx-auto bg-stone-800 text-white px-4 py-2 text-3xl rounded-lg" data-num>3</button>
+                <button class="button
+                 mx-auto bg-stone-800 text-white px-4 py-2 text-3xl rounded-lg" data-num>4</button>
+                <button class="button
+                 mx-auto bg-stone-800 text-white px-4 py-2 text-3xl rounded-lg" data-num>5</button>
+                <button class="button
+                 mx-auto bg-purple-800 text-white px-5 py-2 text-3xl rounded-lg" data-op>-</button>
+            </div>
+            <div class="space-x-3">
+                <button class="button
+                 mx-auto bg-stone-800 text-white px-4 py-2 text-3xl rounded-lg" data-num>6</button>
+                <button class="button
+                 mx-auto bg-stone-800 text-white px-4 py-2 text-3xl rounded-lg" data-num>7</button>
+                <button class="button
+                 mx-auto bg-stone-800 text-white px-4 py-2 text-3xl rounded-lg" data-num>8</button>
+                <button class="button
+                 mx-auto bg-blue-800 text-white px-5 py-2 text-3xl rounded-lg" data-op>*</button>
+            </div>
+            <div class="space-x-3">
+                <button class="button
+                 mx-auto bg-stone-800 text-white px-4 py-2 text-3xl rounded-lg" data-num>9</button>
+                <button class="button
+                 mx-auto bg-stone-800 text-white px-5 py-2 text-3xl rounded-lg" data-num>.</button>
+                <button class="button  plusbtn
+                 mx-auto bg-red-700 text-white px-4 py-2 text-3xl rounded-lg
+                 "  id="equel" data-equal>=</button>
+                <button class="button
+                 bg-green-800 text-white px-4 py-2 text-3xl rounded-lg mx-auto"
+                 data-op>/</button>
+                
+            </div>  
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
